@@ -1,0 +1,278 @@
+# Spatial_Therapy_OU_Levy_Branching
+
+**Therapy-aware spatial ecological modeling of pediatric leukemia using spatial transcriptomics and interpretable stochastic dynamics.**
+
+[![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg)]()
+[![License](https://img.shields.io/badge/License-MIT-green.svg)]()
+[![DOI](https://img.shields.io/badge/DOI-Zenodo-blue)]()
+
+---
+
+## Overview
+
+This repository contains the reproducible analysis pipeline accompanying the manuscript:
+
+> **Therapy-aware spatial ecological modeling reveals evolutionary opportunity, OU-like ecological retention, Lévy-like escape, and branching-like amplification in pediatric leukemia.**
+
+The framework introduces an ecological interpretation of spatial transcriptomic data by integrating five complementary analytical layers:
+
+1. **Spatial ecological context discovery**
+2. **Evolutionary opportunity scoring**
+3. **OU-like ecological retention**
+4. **Lévy-like ecological escape**
+5. **Branching-like ecological amplification with therapy-response validation**
+
+Rather than reconstructing true temporal trajectories, the framework summarizes cross-sectional spatial organization using interpretable ecological statistics inspired by stochastic evolutionary processes.
+
+---
+
+## Biological motivation
+
+Spatial transcriptomics provides high-resolution maps of tissue architecture but most computational methods primarily describe spatial organization through clustering, neighborhood analysis, or graph representations.
+
+This framework instead asks:
+
+- Which ecological contexts exist within leukemia tissues?
+- Which contexts provide favorable evolutionary opportunities?
+- Which contexts exhibit stable ecological retention?
+- Where do rare ecological escape events occur?
+- Which ecological states preferentially expand during disease progression?
+- Do these ecological summaries relate to therapy response?
+
+---
+
+## Repository structure
+
+```text
+Spatial_Therapy_OU_Levy_Branching/
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── supplementary/
+│
+├── scripts/
+│   ├── preprocessing/
+│   ├── ecological_context/
+│   ├── opportunity/
+│   ├── ou_like/
+│   ├── levy_like/
+│   ├── branching/
+│   └── therapy_validation/
+│
+├── figures/
+│
+├── results/
+│
+├── notebooks/
+│
+├── environment.yml
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## Analysis workflow
+
+### Figure 1
+Workflow overview
+
+---
+
+### Figure 2
+Spatial ecological context discovery
+
+- ecological program scoring
+- context feature construction
+- ecological context identification
+- representative tissue visualization
+
+---
+
+### Figure 3
+Evolutionary opportunity landscapes
+
+- ecological opportunity scores
+- context comparison
+- spatial projection
+
+---
+
+### Figure 4
+OU-like ecological retention
+
+- context-level ecological attractors
+- ecological stability scores
+- representative spatial maps
+
+---
+
+### Figure 5
+Lévy-like ecological escape
+
+- spatial neighbor graph construction
+- cross-context transitions
+- ecological jump-distance estimation
+- rare ecological escape detection
+
+---
+
+### Figure 6
+Branching-like ecological amplification
+
+- transition network construction
+- amplification scoring
+- ecological branching summary
+
+---
+
+### Figure 7
+Therapy-response validation
+
+- therapy-associated datasets
+- response group comparisons
+- ecological summary validation
+
+---
+
+## Datasets
+
+The analyses use publicly available datasets.
+
+| Dataset | Purpose |
+|----------|----------|
+| **GSE253355** | Normal bone marrow ecological reference programs |
+| **GSE279576** | Visium spatial transcriptomics for ecological context discovery |
+| **GSE235923** | Branching and therapy-associated validation |
+
+The repository contains only processed analysis outputs where permitted.
+
+Raw sequencing data should be downloaded from GEO.
+
+---
+
+## Software requirements
+
+- Python ≥ 3.11
+
+Major packages include
+
+- scanpy
+- squidpy
+- anndata
+- pandas
+- numpy
+- scipy
+- scikit-learn
+- matplotlib
+- seaborn
+- networkx
+
+Installation
+
+```bash
+git clone https://github.com/shkim9391/Spatial_Therapy_OU_Levy_Branching.git
+
+cd Spatial_Therapy_OU_Levy_Branching
+
+conda env create -f environment.yml
+
+conda activate spatial-therapy
+```
+
+---
+
+## Running the pipeline
+
+Example execution order:
+
+```bash
+python scripts/process_GSE253355_raw.py
+
+python scripts/score_GSE253355_normal_BM_ecology.py
+
+python scripts/process_GSE279576_visium.py
+
+python scripts/discover_GSE279576_spatial_ecological_contexts.py
+
+python scripts/build_Figure3_opportunity.py
+
+python scripts/build_Figure4_ou_like_spatial_summary.py
+
+python scripts/build_Figure5_levy_like_jumps.py
+
+python scripts/build_Figure6_branching_amplification.py
+
+python scripts/build_Figure7_therapy_response_validation.py
+```
+
+---
+
+## Outputs
+
+The pipeline generates
+
+- ecological context assignments
+- ecological feature profiles
+- opportunity scores
+- OU-like retention summaries
+- Lévy-like escape summaries
+- branching amplification scores
+- publication-quality figures
+- supplementary tables
+
+---
+
+## Reproducibility
+
+All analyses are fully scripted.
+
+The repository includes:
+
+- analysis scripts
+- processed intermediate tables
+- figure-generation code
+- supplementary datasets
+
+Random seeds are fixed where applicable.
+
+---
+
+## Citation
+
+If you use this repository, please cite:
+
+> Kim SH. *Therapy-aware spatial ecological modeling reveals evolutionary opportunity, OU-like ecological retention, Lévy-like escape, and branching-like amplification in pediatric leukemia.* Genome Research (under review).
+
+Zenodo DOI:
+
+```
+DOI: coming soon
+```
+
+---
+
+## License
+
+MIT License
+
+---
+
+## Contact
+
+**Seung-Hwan Kim, Ph.D.**
+
+Associate Professor of Biology, Fisher College
+
+Visiting Scholar, Dana-Farber Cancer Institute
+
+Boston, Massachusetts, USA
+
+GitHub: https://github.com/shkim9391
+
+---
+
+## Acknowledgments
+
+This work uses publicly available datasets generated by the original investigators. We gratefully acknowledge the authors of the GEO datasets that made this secondary analysis possible.
