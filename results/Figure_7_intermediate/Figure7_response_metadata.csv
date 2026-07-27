@@ -1,0 +1,9 @@
+dataset,sample_id,patient_id,response_status
+GSE235923,state_MonoDC,state_MonoDC,unknown
+GSE235923,other_state,other_state,unknown
+GSE235923,state_GMP,state_GMP,unknown
+GSE235923,state_Prog,state_Prog,unknown
+GSE235923,not_malignant,not_malignant,unknown
+GSE235923,state_HSC,state_HSC,unknown
+GSE235923,aux_EryBaso,aux_EryBaso,unknown
+GSE235923,aux_CLP,aux_CLP,unknown
