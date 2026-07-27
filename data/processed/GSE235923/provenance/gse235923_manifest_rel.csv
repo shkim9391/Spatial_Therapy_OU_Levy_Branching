@@ -1,0 +1,3 @@
+gsm,sample_base,timepoint,sample_id,barcodes_file,features_file,matrix_file
+GSM7512005,Sample5,REL,Sample5_REL,GSM7512005_Sample5R_barcodes.tsv.gz,GSM7512005_Sample5R_features.tsv.gz,GSM7512005_Sample5R_matrix.mtx.gz
+GSM7512008,Sample6,REL,Sample6_REL,GSM7512008_Sample6R_barcodes.tsv.gz,GSM7512008_Sample6R_features.tsv.gz,GSM7512008_Sample6R_matrix.mtx.gz
