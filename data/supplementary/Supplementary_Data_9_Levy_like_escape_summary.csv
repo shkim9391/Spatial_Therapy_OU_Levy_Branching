@@ -1,0 +1,6 @@
+ecological_context,n_edges,cross_frequency,rare_frequency,mean_jump_distance,mean_rare_distance,levy_like_escape_score,rare_escape_score,analysis,rare_jump_definition
+S1,11858,0.2548490470568392,0.0403946702648001,4.810348802898489,6.738960391936399,1.2259128084296875,0.2722180829598191,Levy-like ecological escape summary,Empirical rare-jump threshold applied in Figure 5 workflow
+S2,16560,0.7092995169082126,0.0756642512077294,4.58563756290551,6.118810643696894,3.2525905080850315,0.4629752256372106,Levy-like ecological escape summary,Empirical rare-jump threshold applied in Figure 5 workflow
+S3,33357,0.3183439757771982,0.0177773780615762,4.648689954719081,6.183529742346458,1.4798824423407957,0.1099269459846943,Levy-like ecological escape summary,Empirical rare-jump threshold applied in Figure 5 workflow
+S4,10417,0.5307670154555054,0.5307670154555054,5.844642653122903,5.844642653122903,3.10214353740199,3.10214353740199,Levy-like ecological escape summary,Empirical rare-jump threshold applied in Figure 5 workflow
+S5,33642,0.3094940847749836,0.1171155103739373,4.974518014836152,5.742123911468656,1.539583900198383,0.6724917725220411,Levy-like ecological escape summary,Empirical rare-jump threshold applied in Figure 5 workflow
